@@ -16,10 +16,5 @@
     "eslint-config-custom": "*",
     "prettier": "latest",
     "turbo": "latest"
-  },
-  "engines": {
-    "node": ">=14.0.0"
-  },
-  "dependencies": {},
-  "packageManager": "npm@9.2.0"
+  }
 }
