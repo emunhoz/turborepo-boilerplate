@@ -1,0 +1,63 @@
+.tokens-grid {
+  width: 100%;
+  font-family: sans-serif;
+  border-collapse: collapse;
+}
+
+.tokens-grid thead {
+  border-bottom: 1px solid #444444;
+  color: #444444;
+}
+
+.tokens-grid thead th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.tokens-grid tbody td {
+  padding: 0.75rem 1rem;
+  color: #ccc;
+}
+
+.tokens-grid tbody td:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.tokens-grid tbody td:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.tokens-grid tbody tr:nth-child(odd) td {
+  color: #444;
+}
+
+.tokens-grid tbody tr:nth-child(even) td {
+  background: #444;
+}
+
+.tokens-box {
+  border-radius: 4px;
+  background: #FFFFFF;
+  box-shadow: rgb(0 0 0 / 10%) 0 1px 3px 0;
+  border: 1px solid rgba(0,0,0,.1);
+  margin: 25px 0 40px;
+  padding: 30px 20px;
+}
+
+.tokens-box--item {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.tokens-box--item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.tokens-box--item-value {
+  margin-right: 30px;
+  font-size: 12px;
+  min-width: 30px;
+}
